@@ -11,7 +11,6 @@ translate = list(map(str, input().split(" ")))
 # считываем фразу для перевода и разбиваем на слова
 
 translation = ""
-# строка, в которой будем собирать перевод
 
 for i in range(len(translate)):
     translation += dictionary.get(translate[i], translate[i]) + " "
